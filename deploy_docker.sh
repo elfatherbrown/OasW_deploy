@@ -5,8 +5,8 @@ DOCKER_TAG="$2"
 
 if [ -z $DOCKER_FILE ]
     then
-    echo "Must provide full path to Dockerfile" >&2
-    exit 1
+    echo "Must provide full path to Dockerfile, defaulting to ./Dockerfile" >&2
+    DOCKER_FILE="./Dockerfile"
 fi
 
 if [ -z $DOCKER_TAG ]
