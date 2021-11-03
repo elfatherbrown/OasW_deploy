@@ -1,0 +1,72 @@
+Package: OasW
+Title: OAS W
+Version: 0.0.0.9000
+Authors@R: person('Alejandro', 'Borges Sanchez', email = 'alex@borges.consulting', role = c('cre', 'aut'))
+Description: An exploring tool for a measure of inclusive growth.
+License: file LICENSE
+Imports: 
+    assertive,
+    attempt,
+    config (>= 0.3.1),
+    countrycode,
+    DiagrammeR,
+    dplyr,
+    DT,
+    gargoyle (>= 0.0.1),
+    ggplot2,
+    glue,
+    golem (>= 0.3.1),
+    htmltools,
+    htmlwidgets,
+    kableExtra,
+    leaflet,
+    leaflet.extras,
+    leaflet.providers,
+    leafpop,
+    magrittr,
+    markdown,
+    naniar,
+    pins (>= 0.99.9000),
+    pkgload,
+    processx,
+    R6,
+    RColorBrewer,
+    readr,
+    renv,
+    rmarkdown,
+    roascountries (>= 0.0.0.9000),
+    ggflags (>= 0.0.2),
+    sf,
+    shinipsum,
+    shiny (>= 1.6.0),
+    shinydashboard,
+    shinyjs,
+    shinyWidgets,
+    skimr,
+    spelling,
+    thematic,
+    thinkr,
+    tidyr,
+    utils,
+    webshot,
+    whereami,
+    devtools
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    rlang,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
+Remotes: 
+    rstudio/pins,
+    gitlab::a4408/roascountries,
+    ColinFay/gargoyle,
+    jimjam-slam/ggflags
+URL: https://github.com/elfatherbrown/OasW
+BugReports: https://github.com/elfatherbrown/OasW/issues
+Depends: 
+    R (>= 2.10)
